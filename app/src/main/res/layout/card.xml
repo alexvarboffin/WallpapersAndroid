@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="fill_parent"
+    n1:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    n1:orientation="vertical">
+
+    <ru.egslava.blurredview.BlurredImageView xmlns:n2="http://schemas.android.com/apk/res-auto"
+        n1:layout_width="fill_parent"
+        n1:layout_height="fill_parent"
+        n1:src="@drawable/banner"
+        n2:downSampling="1.0"
+        n2:keepOriginal="true"
+        n2:radius="0.2" />
+
+    <TextView
+        n1:id="@+id/headline"
+        n1:layout_width="fill_parent"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="bottom"
+        n1:gravity="center"
+        n1:padding="5.0dip"
+        tools:text="@string/app_name"
+        n1:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        n1:textColor="@android:color/white" />
+</FrameLayout>

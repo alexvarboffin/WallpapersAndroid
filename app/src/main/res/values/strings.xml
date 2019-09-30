@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+
+
+
+
+    <string name="state_preparing">Preparing</string>
+    <string name="state_installed">Installed</string>
+    <string name="state_saved_successfully">Image Saved Successfully \n %1$s </string>
+    <string name="action_set_as_wallpaper">Set As Wallpaper</string>
+    <string name="action_save_wallpaper">Save to Gallery</string>
+</resources>

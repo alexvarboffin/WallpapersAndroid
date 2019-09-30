@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="state_preparing">Подготавливаем</string>
+    <string name="state_installed">Установлено</string>
+    <string name="state_saved_successfully">Изображение сохранено успешно \n %1$s </string>
+    <string name="action_set_as_wallpaper">Установить в качестве обоев</string>
+    <string name="action_save_wallpaper">Сохранить в галерее</string>
+</resources>
